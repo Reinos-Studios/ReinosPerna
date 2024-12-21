@@ -1,0 +1,12 @@
+name: ReinosPerna
+version: '1.0'
+main: LkDeveloper.reinosPerna.ReinosPerna
+api-version: '1.20'
+commands:
+  curarperna:
+    description: Cura a perna de um jogador
+    usage: /<command> <jogador>
+permissions:
+  reinosperna.curar:
+    description: Permite curar as pernas de jogadores
+    default: op
